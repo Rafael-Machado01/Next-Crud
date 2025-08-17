@@ -1,1 +1,11 @@
 @import "tailwindcss";
+
+/* @layer componentes nos permite a criar css personalizados  */
+@layer components {
+   .background-gradient {
+      background: linear-gradient(#0C1791,#080F5E,#060B44,#04072B);
+   }
+   .primary-color {
+      color: #0C1791;
+   }
+}
