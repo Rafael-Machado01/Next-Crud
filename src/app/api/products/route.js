@@ -5,7 +5,7 @@
       export async function GET() {
       try {
          // Faz uma query no banco de dados para pegar todas as linhas da nossa tabela PRODUCTS
-         const [rows] = await database.query("SELECT * FROM PRODUCTS");
+         const [rows] = await database.query("SELECT * FROM PRODUCT");
 
          // Retorna o conteúdo da query em JSON e retornando um status 200 dizendo que deu certo.
          return new Response(JSON.stringify(rows), {

@@ -1,4 +1,4 @@
-import mysql from 'mysql2';   
+import mysql from 'mysql2/promise';   
 
 // Fazendo a conexão com o banco de dados passando todas as credenciais
 
