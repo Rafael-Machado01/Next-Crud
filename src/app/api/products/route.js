@@ -1,8 +1,5 @@
-      import { database } from "../lib/database";
-      // Conexão com o banco.
-
-      // Função quando houver um GET
-      export async function GET() {
+ import { database } from "../lib/database";
+ export async function GET() {
       try {
          // Faz uma query no banco de dados para pegar todas as linhas da nossa tabela PRODUCTS
          const [rows] = await database.query("SELECT * FROM PRODUCT");
@@ -21,3 +18,4 @@
          })
       }
    }
+
